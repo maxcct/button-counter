@@ -1,0 +1,20 @@
+{
+  "db": "mongo1",
+  "total": 4,
+  "players": [{
+  	  "player": "Royal",
+  	  "price": 5
+  	},
+  	{
+  	  "player": "Blankidoodie",
+  	  "price": 10
+  	},
+  	{
+  	  "player": "Traditional",
+  	  "price": 15
+  	},
+  	{
+  	  "player": "Katabatika",
+  	  "price": 20
+  	}]
+}
