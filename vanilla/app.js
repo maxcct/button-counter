@@ -59,14 +59,14 @@ controller.init();
 var view = {
 	init: function(response, players) {
 		buttonsDiv = document.getElementById("buttons");
-		buttonsHTML = createButtons(response, players);
+		buttonsHTML = this.createButtons(response, players);
 		buttonsHTML.forEach(function(button) {
 			buttonsDiv.innerHTML += button;
 		});
 		this.updateCounter();
 	},
 
-	createButtons: function() {
+	createButtons: function(response, players) {
 		buttonsHTML = [];
 		for(var i = 0; i < response.total; i++) {
 			var buttonHTML = "<button onclick='controller.buttons.clickHandler(this)'";
